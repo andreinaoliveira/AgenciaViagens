@@ -4,7 +4,7 @@
 	<div id="esqLogin" class="container">
 		<div id="textoLogin">
 			<center><h1 id="h1especial">Login</h1></center>
-			<form action="#" method="get">
+			<form action="logarCliente.php" method="post">
 				<table>
 					<tr>
 						<td>
@@ -12,7 +12,7 @@
 						</td>
 
 						<td>
-							<input type="text" id="email" name="email" required placeholder="E-mail">
+							<input type="email" id="email" name="email" required placeholder="E-mail">
 						</td>
 					</tr>
 
@@ -22,7 +22,7 @@
 						</td>
 
 						<td>
-							<input type="password" id="pass" name="password" minlength="8" required placeholder="Senha">
+							<input type="password" id="senha" name="senha" minlength="8" required placeholder="Senha">
 						</td>
 					</tr>
 
@@ -47,7 +47,7 @@
 	<div id="dirLogin" class="container">
 		<div id="textoLogin">
 			<center><h1>Cadastro</h1></center>
-			<form action="#" method="get">
+			<form action="cadastrarCliente.php" method="post">
 				<table>
 					<tr>
 						<td>
@@ -72,7 +72,7 @@
 							<label for="cpf">CPF:</label>
 						</td>
 						<td>
-							<input type="text" id="cpf" name="cpf" required placeholder="CPF">
+							<input type="text" id="cpf" name="cpf" minlength="11" maxlength="11" required placeholder="CPF">
 						</td>
 					</tr>
 
@@ -81,7 +81,7 @@
 							<label for="nascimento">Data de Nascimento:</label><br>
 						</td>
 						<td>
-							<input id="nascimento" type="date"><br>
+							<input id="nascimento" name="nascimento" type="date"><br>
 						</td>
 					</tr>
 
@@ -90,7 +90,7 @@
 							<label for="email">E-mail:</label>
 						</td>
 						<td>
-							<input type="text" id="email" name="email" required placeholder="E-mail">
+							<input type="email" id="email" name="email" required placeholder="E-mail">
 						</td>
 					</tr>
 
@@ -99,7 +99,7 @@
 							<label for="senha">Senha:</label>
 						</td>
 						<td>
-							<input type="password" id="pass" name="password" minlength="8" required placeholder="Senha">
+							<input type="password" id="senha" name="senha" minlength="8" required placeholder="Senha">
 						</td>
 					</tr>
 				</table>
