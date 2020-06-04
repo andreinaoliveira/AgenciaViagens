@@ -1,0 +1,285 @@
+/* --------------------- GERAL ---------------------*/
+@charset "UTF-8";
+.container{
+    width: 1260px; /* largura do container */
+    margin: auto; /* margem do container */
+}
+
+*{ /* remove */
+    margin: 0; /* margem externa */
+    padding: 0: /* margem interna */
+}
+
+header{
+	background-color: white;
+    min-height: 50px; 
+    padding: 0px; 
+    margin: 0px;
+
+}
+h1{
+	margin-bottom: 10px;
+    color: #3385ff;
+}   
+p{
+	margin-bottom: 10px;
+}
+
+#h1especial{
+    color: white;
+    text-align: center;
+}
+
+#logo{
+	margin: 15px;
+	float: left;
+}
+ #menu{
+ 	float: right;
+ 	margin-top: 30px;
+ 	margin-right: 50px;
+
+ }
+
+ #menu a{
+ 	text-decoration: none;
+ 	padding: 20px;
+ 	font-size: 20px;
+ 	color: #1F618D;
+ }
+
+ #menu a:hover{
+    color: #4FABE7;
+}
+
+#allDiv{
+	clear: both;
+	min-height: 650px;
+	width: 100%;
+    background-color: #F2F2F2;
+}
+
+#esqDiv{
+    float: left;
+    min-height: 50%;
+    width: 22%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #B0C4DE;
+}
+
+
+#dirDiv{
+    float: right;
+    min-height: 50%;
+    width: 22%;
+    position: absolute;
+    left: 53%;
+    top: 25%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #B0C4DE;
+}
+
+footer{
+    clear: both;
+    text-align: center;
+    height: 25px;
+}
+
+/* --------------------- INDEX ---------------------*/
+#busca{
+    float: left;
+    min-height: 40px;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 12%;
+    background-color: #51a3cf;
+    text-align: center;
+    padding-top: 10px;
+}
+#buscatd{
+    width: 200px;
+
+}
+
+/* --------------------- BUSCA --------------------- */
+#voo1{
+    float: left;
+    min-height: 50%;
+    width: 22%;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+    padding: 8px;
+    border-radius: 1px;
+}
+
+
+#voo2{
+    float: right;
+    min-height: 50%;
+    width: 22%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    padding: 8px;
+    border-radius: 1px;
+}
+
+#voo3{
+    float: right;
+    min-height: 50%;
+    width: 22%;
+    position: absolute;
+    left: 68%;
+    top: 30%;
+    padding: 8px;
+    border-radius: 1px;
+}
+
+#vooTitulo{
+    float: left;
+    position: absolute;
+    left: 27%;
+    top: 4%;
+    color: white;
+}
+
+#vooOrigem{
+    float: left;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    padding: 8px;
+}
+
+#vooDestino{
+    float: left;
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    padding: 8px;
+}
+
+#vooSel{
+    float: left;
+    position: absolute;
+    left: 15%;
+    top: 62%;
+}
+
+#vooComprar{
+    float: left;
+    position: absolute;
+    min-width: 500px;
+    left: 31%;
+    top: 80%;
+}
+
+/* --------------------- LOGIN ---------------------*/
+
+#esqLogin{
+    float: left;
+    min-height: 90%;
+    width: 45%;
+    position: absolute;
+    left: 0;
+    top: 12,1%;
+    padding: 20px;
+    background-color: #51a3cf;
+}
+
+#whiteButton input[type=submit]{
+    background-color: #F2F2F2;
+    border: none;
+    color: #3385ff;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 100%
+}
+#dirLogin{
+    float: left;
+    min-height: 40%;
+    width: 52%;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    padding: 20px;
+}
+
+#esqTextoLogin{
+    float: left;
+    position: absolute;
+    width: 40%;
+    left: 25%;
+    top: 25%;
+    text-align: left;
+}
+#dirTextoLogin{
+    float: left;
+    position: absolute;
+    width: 40%;
+    left: 25%;
+    top: 0%;
+    text-align: left;
+}
+
+#h1especial{
+    color: white;
+    text-align: center;
+}
+
+/* --------------------- FORM --------------------- */
+#allContato{
+    clear: both;
+    min-height: 650px;
+    width: 100%;
+    background-color: #51a3cf;
+}
+#contato{
+    float: center;
+    min-height: 30%;
+    width: 290px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    padding: 50px;
+}
+/* --------------------- FORM --------------------- */
+input {
+    width: 50%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+select{
+    width: 100%;
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #2E9AFE;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
