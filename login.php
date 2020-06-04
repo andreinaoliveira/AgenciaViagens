@@ -2,7 +2,7 @@
 
 <div id="allDiv">
 	<div id="esqLogin" class="container">
-		<div id="textoLogin">
+		<div id="esqTextoLogin">
 			<center><h1 id="h1especial">Login</h1></center>
 			<form action="logarCliente.php" method="post">
 				<table>
@@ -38,14 +38,14 @@
 				</table>
 
 			    <center>
-			    	<input type="submit" value="Logar">
+			    	<div id="whiteButton"><input type="submit" value="Logar"></div>
 			    </center>
 			</form>
 		</div>
 	</div>
 
 	<div id="dirLogin" class="container">
-		<div id="textoLogin">
+		<div id="dirTextoLogin">
 			<center><h1>Cadastro</h1></center>
 			<form action="cadastrarCliente.php" method="post">
 				<table>
