@@ -11,7 +11,6 @@
 				<img src="img/logo.png" width="100px" id="logo">
 				<nav id="menu">
 					<a href="index.php">Home</a>
-					<a href="roteiros.php">Roteiros</a>
 					<a href="promocoes.php">Promoções</a>
 					<a href="contato.php">Fale conosco</a>
 					<a href="login.php">
