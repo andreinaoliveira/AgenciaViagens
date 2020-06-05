@@ -33,7 +33,7 @@
 							<div id="vooSel">
 								<center>
 									<input type="radio" name="ida" id="sim" value="'. $row['id'] .'">
-									<label for="sim">Selecionar Passagem</label>
+									<br><label for="sim">Selecionar Passagem</label>
 								</center>
 							</div>
 
