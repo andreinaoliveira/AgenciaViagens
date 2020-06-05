@@ -6,7 +6,7 @@
 </video>
 
 <div id="busca">
-	<form action="busca.php" method="get">
+	<form action="busca.php" method="post">
 		<center><table>
 			<tr>
 				<td>
@@ -14,26 +14,24 @@
 				</td>
 				<td id="buscatd">
 					<label>Origem:</label><br>
-					<select id="origem">
-						<?php 
-							$conexao = new mysqli("localhost","root","","azulviagens") or die("Erro na conexão com o banco de dados");
-							$sql = mysqli_query($conexao,"SELECT cidade,estado FROM aeroporto");
-							while ($row = $sql->fetch_assoc()){
-								echo "<option value=\"origem1\">" . $row['cidade'] . " (". $row['estado'] .")" . "</option>";
-							}
-						?>
+					<select name="origem" id="origem">
+					<?php 
+						$sql = mysqli_query($conexao,"SELECT id,cidade,estado FROM aeroporto");
+						while ($row = $sql->fetch_assoc()){
+							echo "<option value=" . $row['id'] .">" . $row['cidade'] . " (". $row['estado'] .")" . "</option>";
+						}
+					?>
 					</select>
 				</td>
 				<td id="buscatd">
 					<label>Destino:</label><br>
-					<select id="desitno">
-						<?php 
-							$conexao = new mysqli("localhost","root","","azulviagens") or die("Erro na conexão com o banco de dados");
-							$sql = mysqli_query($conexao,"SELECT cidade,estado FROM aeroporto");
-							while ($row = $sql->fetch_assoc()){
-								echo "<option value=\"destino1\">" . $row['cidade'] . " (". $row['estado'] .")" . "</option>";
-							}
-						?>
+					<select name="destino" id="destino">
+					<?php 
+						$sql = mysqli_query($conexao,"SELECT id,cidade,estado FROM aeroporto");
+						while ($row = $sql->fetch_assoc()){
+							echo "<option value=". $row['id'] .">" . $row['cidade'] . " (". $row['estado'] .")" . "</option>";
+						}
+					?>
 					</select>
 				</td>
 				<td id="buscatd">
