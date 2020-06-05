@@ -270,7 +270,7 @@ select{
     background-color: #f1f1f1;
 }
 
-input[type=text], input[type=password]{
+input[type=text], input[type=password], input[type=email]{
     width: 100%;
 }
 
