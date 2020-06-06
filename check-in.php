@@ -25,12 +25,19 @@ if((!isset ($_SESSION['email']) == true) and (!isset ($_SESSION['senha']) == tru
 					<div id="checkCorpo">
 						<img src="img/check-in.png">
 						<div id="checkNome"><p>'. $_SESSION['nome'] .'</p></div>
-						<div id="checkCpf"><p>123.456.789-10</p></div>
 						<div id="checkOrigem"><p>'. $row['origem'] .'</p></div>
 						<div id="checkDestino"><p>'. $row['destino'] .'</p></div>
 						<div id="checkOrigemData"><p>'.date('d/m/Y',$data_partida).'<br>'.date('H:i',$horario_partida).'</p></div>
 						<div id="checkDestinoData"><p>'.date('d/m/Y',$data_chegada).'<br>'.date('H:i',$horario_chegada).'</p></div>
 						<div id="checkValor">R$ 300,00</div>
+						<form>
+							<div id="checkQtd">
+								<label for="sim">Quantidade</label><input type="number" id="quantity" name="quantity" min="1" max="45">
+							</div>
+							<div id="checkConfirmar">
+								<input type="submit" value="Comprar Passagem">
+							</div>
+						</form>
 					</div>
 				</div>';
 		}
