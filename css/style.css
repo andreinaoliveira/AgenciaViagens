@@ -258,7 +258,7 @@ footer{
     padding: 50px;
 }
 
-/* --------------------- CONTATO --------------------- */
+/* --------------------- CHECK-IN --------------------- */
 #checkCorpo{
     float: center;
     position: absolute;
@@ -270,13 +270,6 @@ footer{
     float: left;
     position: absolute;
     left: 5%;
-    top: 20%;
-}
-
-#checkCpf{
-    float: left;
-    position: absolute;
-    left: 75%;
     top: 20%;
 }
 #checkOrigem{
@@ -311,6 +304,18 @@ footer{
     color: white;
     font-weight: bold;
     font-size: 20px;
+}
+#checkQtd{
+    float: left;
+    position: absolute;
+    left: 76%;
+    top: 20%;
+}
+#checkConfirmar{
+    float: left;
+    position: absolute;
+    left: 35%;
+    top: 100%;
 }
 /* --------------------- FORM --------------------- */
 label{
