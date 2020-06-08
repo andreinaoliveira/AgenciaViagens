@@ -6,7 +6,7 @@
 </video>
 
 <div id="busca">
-	<form action="busca.php" method="post">
+	<form onsubmit='return mesmodestino()' action="busca.php" method="post">
 		<center><table>
 			<tr>
 				<td>
@@ -41,5 +41,16 @@
 		</table></center>
 	</form>
 </div>
+
+<script>
+	function mesmodestino(){
+		let origem = document.forms['form']['origem'].value;
+		let destino = document.forms['form']['destino'].value;
+		if(origem == destino){
+		alert('Favor, escolha um destino diferente!');
+		return false;
+		}
+	}
+</script>
 
 <?php include 'footer.php';?>
