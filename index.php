@@ -6,7 +6,7 @@
 </video>
 
 <div id="busca">
-	<form onsubmit='return mesmodestino()' action="busca.php" method="post">
+	<form action="busca.php" onsubmit='return mesmodestino()' method="post" name='form'>
 		<center><table>
 			<tr>
 				<td>
