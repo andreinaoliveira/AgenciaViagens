@@ -48,7 +48,7 @@
 	<div id="dirLogin" class="container">
 		<div id="dirTextoLogin">
 			<center><h1>Cadastro</h1></center>
-			<form onsubmit="" method="post" name="cadastro" onsubmit='return validar()' action="cadastrarCliente.php" >
+			<form onsubmit="" method="post" name="cadastro" onsubmit='return validar()'>
 				<table>
 					<tr>
 						<td>
