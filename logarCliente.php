@@ -19,6 +19,7 @@
 			$senha= $exibirNome[3];
 			
 		}
+		$_SESSION['codigo']=$codigo;
 		$_SESSION['nome']=$nome;
 		$_SESSION['senha']=$senha;
 		if (($_SESSION['email']=="$email")&&($_SESSION['senha']=="$senha")) {
