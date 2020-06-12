@@ -48,7 +48,7 @@
 	<div id="dirLogin" class="container">
 		<div id="dirTextoLogin">
 			<center><h1>Cadastro</h1></center>
-			<form onsubmit="" method="post" name="cadastro" onsubmit='return validar()'>
+			<form onsubmit="" method="post" name="cadastro" >
 				<table>
 					<tr>
 						<td>
@@ -113,20 +113,5 @@
 	</div>
 </div>
 
-<script>
-	function validar() {
-		let nome = document.forms['cadastro']['nome'].value;
-		if (nome.indexOf('0') >=0 || nome.indexOf('1')>=0 || nome.indexOf('2')>=0 || nome.indexOf('3')>=0 || nome.indexOf('4')>=0 || nome.indexOf('5')>=0 || nome.indexOf('6')>=0 || nome.indexOf('7')>=0 || nome.indexOf('8')>=0 || nome.indexOf('9')>=0){
-		alert ("Por favor, no campo Nome digite apenas letras"); 
-		return false;
-		}
-
-		let sobrenome = document.forms['cadastro']['sobrenome'].value;
-		if (sobrenome.indexOf('0') >=0 || sobrenome.indexOf('1')>=0 || sobrenome.indexOf('2')>=0 || sobrenome.indexOf('3')>=0 || sobrenome.indexOf('4')>=0 || sobrenome.indexOf('5')>=0 || sobrenome.indexOf('6')>=0 || sobrenome.indexOf('7')>=0 || sobrenome.indexOf('8')>=0 || sobrenome.indexOf('9')>=0){
-		alert ("Por favor, no campo Sobrenome digite apenas letras"); 
-		return false;
-		}
-	}
-</script>
 
 <?php include 'footer.php';?>
