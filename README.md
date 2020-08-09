@@ -1,8 +1,8 @@
 # Agência de Viagens
 
-O projeto em questão foi criado para obtenção de nota na matéria de Desenvolvimento Web em julho/2020.
+O projeto em questão foi criado para obtenção de nota na matéria de Desenvolvimento Web em junho/2020.
 <br>
-Site visa apresentar roteiros, promoções, além de simular a compra de passagens aerea de maneia básica.
+Site visa apresentar roteiros, promoções, além de simular a compra de passagens aéaras de maneia básica.
 
 ## Iniciando
 
@@ -20,10 +20,10 @@ Softwares necessários:
 ## Feito com
 
 * [Sublime Text 3](https://www.sublimetext.com/3) - IDE
-* [MySQL Administrator](https://downloads.mysql.com/archives/administrator/) - Banco de Dados
+* [MySQL Administrator](https://downloads.mysql.com/archives/administrator/) - Database
 
 ## Autores
 
-* **Andreina Oliveira** - *Initial work* - [GitHub](https://github.com/andreinaoliveira)
-* **Italo Amadeus** - *Initial work* - [GitHub](https://github.com/itkb12)
-* **Victor Maia** - *Initial work* - [GitHub](https://github.com/Victormaia98)
+* **Andreina Oliveira** - *Front-End* - [GitHub](https://github.com/andreinaoliveira)
+* **Italo Amadeus** - *Back-End* - [GitHub](https://github.com/itkb12)
+* **Victor Maia** - *Database* - [GitHub](https://github.com/Victormaia98)
